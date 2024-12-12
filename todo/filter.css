@@ -1,0 +1,68 @@
+.allfilters {
+    display:flex;
+    border: 1px solid gray;
+    padding:4px 0px 0px 0px;
+    height:65px;
+ }
+
+.filterwrapper {
+    display:flex;
+    flex-wrap:wrap;
+    flex:1;
+}
+
+.addtaskbut{
+    height:55px;
+    width:55px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-right:20px;
+    margin-left:20px;
+    margin-bottom:4px;
+
+}
+
+.filterbuttons {
+    display:inline-flex;
+    align-items:center;
+}
+
+.circularbut {
+    height:22px;
+    width:22px;
+    border-radius:50%;
+    margin-right:3px;
+    margin-left:20px;
+}
+
+.newTaskBut{
+    height:55px;
+    width:55px;
+    border:1px solid gray;
+    border-radius:50%;
+    background-color:aqua;
+ }
+
+.menubut {
+    width:30px;
+    border: 2px solid green;
+    display: none;
+    justify-content:center;
+    background-color:aquamarine;
+    border-radius:8px;
+    margin-left:5px;
+    margin-bottom:4px;
+}
+
+@media (max-width:768px) {
+    .menubut {
+	display:flex;
+
+	
+    }
+
+    .allfilters {
+	height:auto;
+    }
+}

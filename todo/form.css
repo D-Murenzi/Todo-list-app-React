@@ -1,0 +1,125 @@
+.formSec {
+    display:flex;
+    position:relative;
+    justify-content:center;
+    
+}
+
+.newtaskform {
+    position:absolute;
+    display:inline-block;
+    border:3px solid #523D35;
+    background-color:#EFEFE9;
+    padding:2em;
+    border-radius:14px;
+    text-align:center;
+    z-index:1;
+  
+}
+
+p + P {
+    margin-top:2em;
+}
+
+p label {
+    display:inline-block;
+    min-width:100px;
+    text-align:right;
+}
+
+label > label {
+    min-width:50px;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width:300px;
+    box-sizing:border-box;
+    border: 1px solid #D1C78D;
+}
+
+p label > input {
+    width:120px;
+}
+
+input:focus, textarea:focus {
+    outline-style: solid;
+    outline-color:black;
+}
+      
+textarea {
+    vertical-align:middle;
+}
+
+fieldset {
+    margin-top:3em;
+    text-align:right;
+}
+
+.formbuts {
+    display:flex;
+    flex-direction:column-reverse;
+    align-items:center;
+    padding-top:0px;
+}
+
+form button {
+    background-color: lightblue;
+    border-radius:4px;
+
+
+}
+
+#cancelid {
+
+}
+
+@media (max-width: 768px) {
+    /* Styles for screens 768px wide or less */
+    /*body {
+	padding-top:0vh;
+	text-align:center;
+	font-size:20px;
+    }*/
+    
+    .newtaskform {
+	display:inline-block;
+	border:3px solid #523D35;
+	background-color:#EFEFE9;
+	padding:1em;
+	border-radius:14px;
+	text-align:right;
+    }
+    
+    form label {
+	display:block;
+	min-width:80px;
+	align-items:center;
+	text-align:left;
+    }
+	   
+    form input, textarea {
+	font: 1em sans-serif;
+	width:100%;
+	box-sizing:border-box;
+	border: 1px solid #D1C78D;
+    }
+    
+    p + P {
+	margin-top:1em;
+    }
+    
+    fieldset > label {
+	font-size:18px;
+    }
+    
+    fieldset > input {
+	display:block;
+	width:100%;
+    }
+    
+    fieldset {
+	margin-top:2em;
+	border: 1px solid #223030;
+    }   
+}

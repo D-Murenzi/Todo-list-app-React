@@ -1,0 +1,102 @@
+.wholeheader {
+    display:flex;
+    width:100%;
+    border:1px solid #1A5276;
+    background-color:#2980B9;
+    height:48px;
+    padding:3px 10px 3px 10px;
+    align-items:center;
+    position:relative;
+}
+
+/*time section*/
+.datetimesec{
+    box-sizing:border-box;
+    width:175px;
+    display:inline-block;
+    border:1px solid green;
+    background-color: #15FFB1;
+    padding-left:15px;
+    border-radius:4px;
+}
+
+/*search section*/
+.searchsec {
+    position:absolute;
+    left:45%;
+    width:120px;
+    display:inline-block;
+}
+
+.searchInput {
+    width:100px;
+    border-radius:4px;
+}
+
+.searchBut {
+    width: 20px;
+    padding:2px;
+}
+/*usersection*/
+.usersec{
+    position:absolute;
+    right:60px;
+    width:110px;
+    display:inline-flex;
+    border:1px solid green;
+    align-items:center;
+    padding: 4px;
+    border-radius:4px;
+    background-color:#1ABC9C;
+}
+
+.initials{
+    
+    background-color:#2980B9;
+    box-sizing:border-box;
+    margin-left:10px;
+    height:39px;
+    width:39px;
+    border: 2px solid #3a0a4f;
+    border-radius:50%;
+    text-align:center;
+    padding:8px 0px 8px 0px;
+	    
+}
+
+
+@media (max-width:768px){
+    .wholeheader{
+	display:flex;
+	position:relative;
+	height:80px;
+    }
+
+    .datetimesec{
+	display:inline-block;
+	min-width:225px;
+    }
+    
+    .searchsec{
+	position:absolute;
+	bottom:0px;
+	right:8px;
+	left:unset;
+	width:auto;
+	margin-bottom:2px;
+	max-width:102px;
+    }
+    .searchInput {
+	width:82px;
+    }
+
+    .usersec {
+	font-size:17px;
+	padding:1px 5px 1px 5px;
+	width:auto;
+	position:absolute;
+	right:8px;
+	top:10px;
+
+    }
+}

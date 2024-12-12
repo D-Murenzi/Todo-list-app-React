@@ -1,0 +1,47 @@
+.notificationIcon {
+    height:40px;
+    padding:0px 20px 0px;
+    background-color:aqua;
+}
+
+.notIcon {
+    height:35px;
+}
+
+.notimessagecontainer {
+    padding:0px 3px 0px 3px;
+    background-color:rgb(255, 0, 0, 0.2);
+    position:relative;
+    width:100%;
+    border: 2px solid green;
+    height:100%;
+    margin-top:0px;
+}
+
+
+.notificationlist {
+    padding:0px;
+    margin-top:0px;
+    position:absolute;
+    width:100%;
+    
+}
+
+.linotification {
+    width:99%;
+    padding:0px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    margin-right:3px;
+    margin-top:3px;
+    display:block;
+    height:auto;
+}   
+
+@media (max-width:768px) {
+    .notificationIcon {
+	display:flex;
+	justify-content:center;
+    }
+	
+}

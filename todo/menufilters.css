@@ -1,0 +1,48 @@
+.menufilters {
+    display:flex;
+    flex-direction:column;
+    padding: 10px 20px;
+    width:100%;
+    position:relative;
+}
+
+#todayicon,
+#weekicon,
+#monthicon,
+#calendaricon
+{
+    height:25px;
+    width:40px;
+    padding:0px;
+    background:rgb(115, 161, 177, 0.5);
+    border-radius:4px;
+}
+
+.daysfiltercontainer {
+    position:relative;
+    display:flex;
+    align-items:center;
+    width:100%;
+    border-bottom: 2px solid gray;
+    border-radius:4px;
+}
+
+.daysfilter {
+    border-radius:4px;
+    margin:10px;
+    padding:1px 1px 0px 1px;
+    border:none;
+}
+
+
+.daysfiltercontainer:hover {
+    border: 1px solid gray;
+}
+
+@media (max-width: 768px) {
+    .menufilters {
+	z-index:1;
+	position:absolute;
+
+    }
+    
